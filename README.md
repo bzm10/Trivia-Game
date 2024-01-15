@@ -37,5 +37,9 @@ Welcome to the Trivia Game! This simple quiz game utilizes the Open Trivia API t
 - The game utilizes the `requests` library for API communication and `pygame` for playing sound.
 - Special thanks to the Open Trivia API for providing the trivia questions.
 
+## Keywords
+Trivia, Quiz Game, Open Trivia API, Python, Tkinter, Educational Game, Python Trivia Game
+
+
 Feel free to contribute to the project or report any issues. Enjoy playing!
 
