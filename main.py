@@ -112,7 +112,8 @@ def start_game():
 
         # Check if the selected answer is correct
         if selected_answer == correct_answer:
-            play_sound("path-to-audio-file-correcrt")
+            # if your on windows you will need to add a r"path-to-audio"
+            play_sound("path-to-audio-file-correct")
             messagebox.showinfo("Correct", "Congratulations! You got the question right.")
             score_points()
         else:
@@ -126,6 +127,7 @@ def start_game():
         if game_index < len(response.get("results")):
             show_next_question()
         else:
+            # if your on windows you will need to add a r"path-to-audio"
             play_sound("path-to-audio-file-game-over")
             messagebox.showinfo("Game Over", "You have answered all the questions. Your score is " + str(score) + ".")
             # Clear the window
